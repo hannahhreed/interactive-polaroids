@@ -24,4 +24,21 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 1.3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.polaroid:hover {
+  transform: rotate(0);
+  box-shadow: 1px 10px 20px black;
+}
+
+figure:nth-child(2) {
+  top: 150px;
+  left: 290px;
+  transform: rotate(6deg);
+  z-index: 3;
+
 }
