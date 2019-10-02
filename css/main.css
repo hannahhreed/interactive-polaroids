@@ -51,7 +51,7 @@ figure:first-of-type {
 
 figure:last-of-type {
   top: 100px;
-  left: 390;
+  left: 390px;
   transform: rotate(32deg);
   z-index: 2;
 }
